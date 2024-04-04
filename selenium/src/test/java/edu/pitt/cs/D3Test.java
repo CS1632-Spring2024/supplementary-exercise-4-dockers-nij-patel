@@ -58,7 +58,7 @@ public class D3Test {
       String attribute = element.getAttribute("href");
       vars.put("href_check", attribute);
     }
-    assertEquals(vars.get("href_check").toString(), "http://localhost:8080reset");
+    assertEquals(vars.get("href_check").toString(), "http://localhost:8080/reset");
   }
 
   @Test
@@ -82,7 +82,7 @@ public class D3Test {
       String attribute = element.getAttribute("src");
       vars.put("src_check", attribute);
     }
-    assertEquals(vars.get("src_check").toString(), "http://localhost:8080images/cat2.jpg");
+    assertEquals(vars.get("src_check").toString(), "http://localhost:8080/images/cat2.jpg");
   }
 
   @Test
